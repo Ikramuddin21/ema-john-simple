@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ReviewItem = (props) => {
-   // console.log(props);
+    console.log(props);
     const {name, quantity, key, price} = props.product;
     const reviewItemStyle={
         borderBottom:'1px solid lightgray',

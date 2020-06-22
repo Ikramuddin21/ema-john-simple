@@ -5,8 +5,7 @@ import Shop from './components/Shop/Shop';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Review from './components/Review/Review';
 import Inventory from './components/Inventory/Inventory';
@@ -16,7 +15,7 @@ import Login from './components/Login/Login';
 import { AuthContextProvider, PrivateRoute } from './components/Login/useAuth';
 import Shipment from './components/Shipment/Shipment';
 
-function App(props) {
+function App() {
   return (
     <div>
       <AuthContextProvider>
